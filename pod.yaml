@@ -8,13 +8,5 @@ spec:
     image: nginx
     ports:
     - containerPort: 8080
-  name: pod2
-spec: 
-  containers:
-  - name: watcher
+  - name: log
     image: afakharany/watcher
-    ports:
-    - containerPort: 8080
-    
-
-    
