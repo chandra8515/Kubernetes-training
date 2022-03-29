@@ -6,7 +6,7 @@ metadata:
     app: helloworld
     env: dev
     application: ui
-spec:
+  spec:
   continers:
   - name: k8s-demo
     image: arjunachari12/k8s-demo
